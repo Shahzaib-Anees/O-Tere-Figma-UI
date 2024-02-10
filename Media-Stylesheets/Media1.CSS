@@ -1,5 +1,5 @@
 /* For Mobiles  */
-@media(min-width:375px) and (max-width:785px){
+@media(min-width:280px) and (max-width:785px){
    .nav-bg-logo{
     width: 30%;
    }
