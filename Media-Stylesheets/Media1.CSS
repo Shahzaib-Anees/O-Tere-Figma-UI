@@ -1,0 +1,21 @@
+/* For Mobiles  */
+@media(min-width:375px) and (max-width:785px){
+   .nav-bg-logo{
+    width: 30%;
+   }
+   .nav-bg-logo>img{
+    width: 100%;
+   }
+   
+    .nav-anchor-elements {
+        display: none;
+    }
+
+    .hidden-button-nav{
+        display: block;
+        width: 6%;
+    }
+    .hidden-button-nav>img{
+        width: 100%;
+    }
+}
