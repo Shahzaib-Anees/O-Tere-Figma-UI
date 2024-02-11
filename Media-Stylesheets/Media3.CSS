@@ -1,0 +1,70 @@
+/* For Small Laoptops and Desktops  */
+@media (min-width:901px) and (max-width:1000px) {
+    /* Navbar Don't need Styling  */
+
+    /* Section 1 part 1  */
+    /* Mid Para Section   */
+    .mid-sec1-para-sec {
+        width: 70%;
+        /* padding-top: 2%; */
+    }
+
+    .mid-sec1-para-sec>h3 {
+        font-size: 3.2rem;
+        width: 100%;
+        font-weight: 900;
+        margin-top: 10%;
+        line-height: 60px;
+    }
+
+    .mid-sec1-para-sec>h3:hover {
+        color: #75BF7A;
+    }
+
+    .mid-sec1-para-sec>p {
+        font-size: 1.3rem;
+        font-weight: 800;
+        width: 90%;
+        margin-left: 1%;
+        margin-top: 4%;
+    }
+
+    /* Mid Download Buttons Styling  */
+    .mid-download-buttons-div {
+        width: 80%;
+        margin-left: 1%;
+        margin-top: 10%;
+        display: flex;
+        gap: 50px
+    }
+
+    .mid-download-button {
+        color: #fff;
+        width: 50%;
+        padding: 1.8% 2.4%;
+        height: 100%;
+        font-size: 1.3rem;
+    }
+
+    .mid-download-button>img {
+        margin-right: 10px;
+    }
+
+    .navigation-slide>p{
+        font-family: Gilroy-Regular;
+        font-size: 1.3rem;
+        font-weight: 800;
+        width: 255px;
+    }
+}
+
+
+/* Override for Download Button  */
+@media (min-width:900px) and (max-width:915px) {
+
+    /* Mid Download Buttons Styling  */
+    .mid-download-buttons-div {
+        width: 90%;
+        margin-top: 3%;
+    }
+}

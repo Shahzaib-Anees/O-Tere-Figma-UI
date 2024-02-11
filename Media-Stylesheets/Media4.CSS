@@ -1,0 +1,39 @@
+/* Media for 1090px to 1280px  */
+@media (min-width:1001px)  and (max-width:1291px){
+      /* Navbar Don't need Styling  */
+
+    .mid-sec1-para-sec {
+        width: 60%;
+    }
+
+    .mid-sec1-para-sec>h3 {
+        font-size: 3.4rem;
+        width: 100%;
+        font-weight: 900;
+        margin-top: 12%;
+        line-height: 60px;
+    }
+
+    .mid-sec1-para-sec>h3:hover {
+        color: #75BF7A;
+    }
+
+    .mid-sec1-para-sec>p {
+        font-size: 1.4rem;
+        font-weight: 800;
+        width: 90%;
+        margin-left: 1%;
+        margin-top: 7%;
+    }
+     /* Mid Download button  */
+    .mid-download-buttons-div{
+        margin-top: 13%;
+    }
+}
+
+
+@media (min-width:1195px) and (max-width:1280px){
+    .mid-sec1-para-sec>h3{
+        font-size: 4rem;
+    }
+}
