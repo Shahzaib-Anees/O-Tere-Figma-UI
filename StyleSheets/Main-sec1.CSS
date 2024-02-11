@@ -14,12 +14,8 @@
 
 /* Main Section 1 Styling  */
 #sec-1 {
-    /* padding: 1%; */
     background-color: #f5f5f5e8;
-    display: flex;
     height: fit-content;
-    display: flex;
-    /* position: relative; */
 
 }
 
@@ -27,7 +23,6 @@
 .mid-main-sec1-content {
     /* border: 2px solid red; */
     width: 100%;
-    padding: 1.2%;
     display: flex;
     gap: 10px;
     padding: 2% 3.2%;
@@ -48,6 +43,10 @@
     margin: 0%;
     margin-top: 10%;
     line-height: 80px;
+}
+
+.mid-sec1-para-sec>h3:hover{
+    color: #75BF7A;
 }
 
 .mid-sec1-para-sec>p {
