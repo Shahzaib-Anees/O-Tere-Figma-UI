@@ -18,10 +18,80 @@
         align-items: center;
         justify-content: space-between;
     }
-/* 
-    .nav-anchor-elements {
+
+    /* Section 1 Media  */
+    /* Mid Sec Content  */
+    .mid-main-sec1-content {
+        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
+        gap: 10px;
+        padding: 2% 3.2%;
+    }
+
+    /* Mid Para Section  */
+    .mid-sec1-para-sec {
         width: 100%;
-    } */
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .mid-sec1-para-sec>h3 {
+        width: 80%;
+        font-size: 4rem;
+        font-weight: 900;
+        margin-top: 4%;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .mid-sec1-para-sec>p {
+        width: 80%;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    /* Mid Download Buttons Styling  */
+    .mid-download-buttons-div {
+        width: 100%;
+        margin-top: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px
+    }
+
+    .mid-download-button {
+        width: 35%;
+        height: fit-content;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mid-download-button>img {
+        padding-right: 8px;
+        width: 13%;
+    }
+
+    /* Mid Image Section  */
+    .mid-main-img-sec {
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: -1;
+    }
+
+    .mid-main-img-sec>img {
+        width: 80%;
+    }
 }

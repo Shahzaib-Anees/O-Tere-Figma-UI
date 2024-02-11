@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     padding:2% 4%;
+    padding-bottom: 0.5%;
 }
 
 /* nav-elments Div  */

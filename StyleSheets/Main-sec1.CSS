@@ -82,6 +82,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: baseline;
+}
+
+.mid-download-button>img{
+    margin-right:10px;
 }
 
 /* Mid Image Section  */
