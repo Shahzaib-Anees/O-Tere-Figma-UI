@@ -103,6 +103,9 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 4%;
+        box-sizing: content-box;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .navigation-slide>p {
