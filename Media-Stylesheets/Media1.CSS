@@ -1,21 +1,98 @@
 /* For Mobiles  */
-@media(min-width:280px) and (max-width:785px){
-   .nav-bg-logo{
-    width: 30%;
-   }
-   .nav-bg-logo>img{
-    width: 100%;
-   }
-   
+@media(min-width:280px) and (max-width:785px) {
+    .nav-bg-logo {
+        width: 30%;
+    }
+
+    .nav-bg-logo>img {
+        width: 100%;
+    }
+
     .nav-anchor-elements {
         display: none;
     }
 
-    .hidden-button-nav{
+    .hidden-button-nav {
         display: block;
         width: 6%;
     }
-    .hidden-button-nav>img{
+
+    .hidden-button-nav>img {
         width: 100%;
+    }
+
+    /* Mid Sec Content  */
+    .mid-main-sec1-content {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 2% 3.2%;
+    }
+
+    /* Mid Para Section  */
+    .mid-sec1-para-sec {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .mid-sec1-para-sec>h3 {
+        width: 60%;
+        font-size: 2.2rem;
+        font-weight: 900;
+        margin-top: 4%;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .mid-sec1-para-sec>p {
+        font-size: 1.1rem;
+        font-weight: 800;
+        width: 55%;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    /* Mid Download Buttons Styling  */
+    .mid-download-buttons-div {
+        width: 100%;
+        margin-top: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px
+    }
+
+    .mid-download-button {
+        width: 30%;
+        height: fit-content;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mid-download-button>img {
+        padding-right: 10px;
+        width: 10%;
+    }
+
+    /* Mid Image Section  */
+    .mid-main-img-sec {
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: -1;
+    }
+
+    .mid-main-img-sec>img {
+        width: 80%;
     }
 }

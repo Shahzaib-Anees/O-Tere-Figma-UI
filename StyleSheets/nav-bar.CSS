@@ -1,23 +1,22 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0%;
 }
 
 /* Nav Bar Styling  */
 .nav-bar {
-    padding-left: 2%;
-    padding-right: 2%;
     display: flex;
     align-items: center;
+    padding:2% 4%;
 }
 
 /* nav-elments Div  */
 .nav-elements {
     /* border: 2PX solid black; */
     width: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
+    /* padding-left: 3%;
+    padding-right: 3%; */
     padding-top: 2%;
     padding-bottom: 1%;
     height: fit-content;
