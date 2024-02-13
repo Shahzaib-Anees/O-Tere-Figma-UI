@@ -15,7 +15,7 @@
 }
 
 .part3-head-div>p {
-    width: 40%;
+    width: 53%;
     color: #9E9DA2;
     font-family: Gilroy-Regular;
     font-size: 1.5rem;
@@ -98,7 +98,7 @@
 /* Part 3 Aside Center  */
 /* Only for Desktop  */
 .part3-center {
-    width: 28%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;

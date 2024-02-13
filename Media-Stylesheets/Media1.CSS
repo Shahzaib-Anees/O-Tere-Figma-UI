@@ -187,7 +187,6 @@
     .mob-visibility-aside-content {
         width: 100%;
         padding: 2%;
-        border: 2px solid red;
         margin-top: 3%;
         display: flex;
         flex-direction: column;
@@ -217,7 +216,7 @@
 
     .mob-cont-img-circle {
         position: relative;
-        width:100%;
+        width: 100%;
         text-align: center;
     }
 
@@ -231,23 +230,162 @@
         font-size: 2rem;
         font-family: Gilroy;
         position: absolute;
-        left: 48%;
-        top: 9%
+        left: 48.2%;
+        top: 12%;
     }
 
-    .mob-visibility-aside1>h5{
-        font-family:Gilroy;
+    .mob-visibility-aside1>h5 {
+        font-family: Gilroy;
         font-size: 1.4rem;
     }
 
-    .mob-visibility-aside1>p{
-        color:#9E9DA2;
+    .mob-visibility-aside1>p {
+        color: #9E9DA2;
         font-size: 1.2rem;
         font-family: Gilroy-Regular;
-        font-weight:800;
-        width:60%;
+        font-weight: 800;
+        width: 60%;
         line-height: 25px;
         text-align: center;
+    }
+
+
+    /* Div Sliders Stylings  */
+
+    .div-sliders-container {
+        width: 100%;
+        margin-top: 12%;
+    }
+
+    .div-sliders-container>h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Div slider 1  */
+    .div-slider1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Div slider 1 Content*/
+    .div-slider1>.div-slider1-content {
+        width: 90%;
+        padding: 1%;
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-slider1-content>img {
+        width: 90%;
+    }
+
+    /* Div Slider Head Div  */
+    .div-slider1-head {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Div Slider Span  */
+    .div-slider-span {
+        font-size: 3.7rem;
+        font-family: Gilroy-Regular;
+        font-weight: 800;
+    }
+
+    /* Div Slider Heading */
+    .div-slider-heading {
+        font-family: Gilroy-Regular;
+        font-weight: 800;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .div-slider1-content>p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        position: static;
+        margin: 10% 0%;
+    }
+
+    /* Div Slider 2  */
+    .div-slider2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Div slider 1 Content*/
+    .div-slider2>.div-slider2-content {
+        width: 90%;
+        padding: 1%;
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .div-slider2-head {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        width: fit-content;
+        order: -1;
+        margin: 4% 0%;
+    }
+
+    .div-slider2-content>p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        position: static;
+        margin: 10% 0%;
+    }
+
+    /* Div Slider 3  */
+    .div-slider3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Div slider 1 Content*/
+    .div-slider3>.div-slider3-content {
+        width: 90%;
+        padding: 1%;
+        display: flex;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .div-slider3-head {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        width: 100%;
+        order: -1;
+        margin: 4% 0%;
+    }
+
+    .div-slider3-content>p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        position: static;
+        margin: 10% 0%;
     }
 }
 

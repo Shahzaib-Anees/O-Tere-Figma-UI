@@ -1,0 +1,160 @@
+/* Gilroy Font  */
+@font-face {
+    font-family: Gilroy;
+    src: url(./../Gilroy-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./../Gilroy-Regular.ttf);
+}
+
+/* Main sec1 part 4 Styling  */
+.div-sliders-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-sliders-container>h3 {
+    color: black;
+    font-family: Gilroy;
+    font-size: 3rem;
+}
+
+/* Div slider 1  */
+.div-slider1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Div Slider 1 Content  */
+.div-slider1>.div-slider1-content {
+    width: 70%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.div-slider1-content>img {
+    width: 19%;
+}
+
+.div-slider1-content>p {
+    width: 30%;
+    color: #9E9DA2;
+    font-family: Gilroy-Regular;
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+}
+
+/* Div Slider Head Div  */
+.div-slider1-head {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+/* Div Slider 2 Styling */
+.div-slider2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-slider2-content {
+    width: 70%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+
+.div-slider2-head {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.div-slider2-content>p {
+    color: #9E9DA2;
+    font-family: Gilroy-Regular;
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: absolute;
+    right: 3%;
+    bottom: 19%;
+}
+
+
+/* Div Slider 3 Styling  */
+.div-slider3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-slider3-content {
+    width: 70%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.div-slider3-head {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+}
+
+.div-slider3-content>p {
+    color: #9E9DA2;
+    font-family: Gilroy-Regular;
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: absolute;
+    left: 3%;
+    bottom: 12%;
+}
+
+/* Common in all  */
+/* Div Slider Span  */
+.div-slider-span {
+    color: #75BF7A;
+    font-size: 4rem;
+    font-family: Gilroy-Regular;
+    font-weight: 800;
+}
+
+
+/* Div Slider Heading */
+.div-slider-heading {
+    font-family: Gilroy-Regular;
+    font-weight: 800;
+    font-size: 2.3rem;
+    width: 60%;
+}
