@@ -1,20 +1,20 @@
 /* Section 1 Part 3 Styling  */
-.part3-head-div{
+.part3-head-div {
     width: 100%;
     /* border: 2px solid red; */
-    padding:2% 4%;
+    padding: 2% 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.part3-head-div>h3{
+.part3-head-div>h3 {
     font-family: Gilroy;
     font-size: 3rem;
 }
 
-.part3-head-div>p{
+.part3-head-div>p {
     width: 40%;
     color: #9E9DA2;
     font-family: Gilroy-Regular;
@@ -23,7 +23,139 @@
     text-align: center;
     margin-top: 1%;
 }
+
 /* Only Mobile Visibility Image  */
-.mob-hidden-image-div{
-  display: none;
+.mob-hidden-image-div {
+    display: none;
+}
+
+
+/* Section 1 Part 3  Aside Content */
+.sec1-par3-content {
+    padding: 2% 4%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    gap: 20px;
+}
+
+
+/* Part 3 Aside 1  */
+.part3-aside1 {
+    width: 40%;
+    height: fit-content;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Part 3 Aside 1  Content*/
+.part3-aside1-content {
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    /* margin-top: 1%; */
+    font-family: Gilroy-Regular;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.part3-aside1-content>h5 {
+    font-size: 1.4rem;
+    font-family: Gilroy;
+    text-align: right;
+    line-height: 55px;
+}
+
+.part3-aside1-content>p {
+    width: 80%;
+    color: #9E9DA2;
+    font-size: 1.2rem;
+    text-align: right;
+    line-height: 23px;
+    margin-top: 2%;
+}
+
+.cont-img-circle {
+    color: #75BF7A;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Circle Counting Styling */
+.cont-img-circle>span {
+    font-size: 2rem;
+    font-family: Gilroy;
+    position: absolute;
+    top: 16%;
+    left: 36%;
+}
+
+/* Part 3 Aside Center  */
+/* Only for Desktop  */
+.part3-center {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.bg-circle {
+    /* border: 2px solid purple; */
+    width: 400px;
+    height: 400px;
+    background-color: #75BF7A;
+    border-radius: 50%;
+}
+
+.dot-greens-img {
+    margin-top: 30%;
+}
+
+/* Part 3 Aside 2  */
+.part3-aside2 {
+    width: 40%;
+    height: fit-content;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.part3-aside2-content{
+       width: 100%;
+       height: fit-content;
+       padding: 1%;
+       /* margin-top: 1%; */
+       font-family: Gilroy-Regular;
+       font-weight: 900;
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+}
+
+.part3-aside2-content>h5{
+    font-size: 1.4rem;
+    font-family: Gilroy;
+    /* text-align: right; */
+    line-height: 55px;
+}
+
+.part3-aside2-content>p{
+    width: 75%;
+    color: #9E9DA2;
+    font-size: 1.2rem;
+    /* text-align: right; */
+    line-height: 23px;
+    margin-top: 2%;
+}
+
+/* Only Mobile Visibility Aside Content  */
+.mob-visibility-aside-content{
+    display: none;
 }
