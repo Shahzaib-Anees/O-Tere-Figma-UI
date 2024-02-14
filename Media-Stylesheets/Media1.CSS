@@ -177,12 +177,13 @@
         gap: 30px;
         position: relative;
     }
-    .mob-hidden-image-div>img{
+
+    .mob-hidden-image-div>img {
         position: relative;
         z-index: 2;
     }
 
-    .mob-visible-circle-div{
+    .mob-visible-circle-div {
         width: 350px;
         height: 350px;
         background-color: #75BF7A;
@@ -247,8 +248,8 @@
         font-size: 2rem;
         font-family: Gilroy;
         position: absolute;
-        left: 37%;
-        top: 13%;
+        left: 36%;
+        top: 11%;
     }
 
     .mob-visibility-aside1>h5 {
@@ -412,6 +413,8 @@
     /* Footer Styling Media  */
     /* Foot Content  */
     .foot-content {
+        padding-top: 12%;
+        padding-bottom: 6%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -430,7 +433,7 @@
 
     /* Foot Content Boxes X2  */
     .foot-content-box {
-       order: 2;
+        order: 2;
     }
 
     .foot-content-box>h5 {
